@@ -16,7 +16,9 @@ export const Route = createFileRoute("/portal/query/overall")({
     <ChatSurface
       title="Team & Company-wide"
       subtitle="Aggregate signals across departments — headcount, attrition, trends."
-      greeting="Hi. I'm your **Overall Analytics Agent**. Ask me about company-wide or departmental metrics."
+      greeting={`Hi. I'm your **Overall Analytics Agent**. Ask me about company-wide or departmental metrics.
+
+> **Note:** This version uses a smaller Groq model with reduced token usage. Responses may be slower and might not include every available detail.`}
       accent="cyan"
       suggestions={[
         "Total No. Of departments",
