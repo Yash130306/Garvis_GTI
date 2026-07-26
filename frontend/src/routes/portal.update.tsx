@@ -19,8 +19,8 @@ export const Route = createFileRoute("/portal/update")({
       greeting="Hello. I'm your **Database Agent**. Describe what you'd like to modify — e.g. `Update Aditya's phone to 98765` — and I'll prepare the query."
       suggestions={[
         "Update Aditya's phone to 98765",
-        "Change IT dept head to Ms. Aditi",
-        "Set EMP-042 designation to Lead Engineer",
+        "Update IT dept head to Ms. Aditi",
+        "Set Harsh designation to Manager",
       ]}
       onSend={updateAgent}
     />

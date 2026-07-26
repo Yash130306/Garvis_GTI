@@ -18,9 +18,9 @@ export const Route = createFileRoute("/portal/query/single")({
       subtitle="Ask anything about one employee — profile, leave, reporting line, training."
       greeting="Hello. I'm your **Single Profile Agent**. Give me an employee name or ID (e.g. `EMP-101`) and what you'd like to know."
       suggestions={[
-        "Show Aditya's leave balance",
-        "Who does EMP-042 report to?",
-        "Training history for EMP-101",
+        "Tell about project of Aditya Bhardwaj",
+        "Which college is Yash from?",
+        "Tell about Harsh",
       ]}
       onSend={querySingleEmployee}
     />

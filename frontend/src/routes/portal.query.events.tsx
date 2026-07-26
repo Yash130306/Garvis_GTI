@@ -19,9 +19,9 @@ export const Route = createFileRoute("/portal/query/events")({
       greeting="Ready. I'm your **Events Agent** — ask about any `EVT-ID`, upcoming sessions, or historic attendance."
       accent="cyan"
       suggestions={[
-        "Upcoming training in December",
-        "Attendees of EVT-01",
-        "Feedback for last month's sessions",
+        "Upcoming events",
+        "List all the chief guest",
+        "List all the completed events",
       ]}
       onSend={queryEvents}
     />

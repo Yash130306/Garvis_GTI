@@ -9,11 +9,11 @@ export const Route = createFileRoute("/")({
 });
 
 const stats = [
-  { k: "311", l: "Employees indexed" },
-  { k: "5", l: "Departments" },
-  { k: "48", l: "Training events" },
-  { k: "1,284", l: "Queries answered · 30d" },
-  { k: "99.98%", l: "Agent uptime" },
+  { k: "", l: "Employees indexed" },
+  { k: "", l: "Multi Function Departments" },
+  { k: "", l: "Exclusive Training events" },
+  { k: "", l: "Fast Queries answered" },
+  { k: "", l: "Updation Done" },
 ];
 
 const entries = [
@@ -64,7 +64,7 @@ function Landing() {
           </span>
           <div className="flex min-w-0 flex-col leading-none">
             <span className="font-display text-lg font-semibold tracking-tight">
-              GTI PORTAL
+              G.A.R.I.S.
             </span>
             <span className="mono text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
               GAIL Training Institute
@@ -73,9 +73,8 @@ function Landing() {
         </div>
         <nav className="mono hidden items-center gap-6 text-[11px] uppercase tracking-[0.2em] text-muted-foreground md:flex">
           <a href="#modes" className="hover:text-molten">Modes</a>
-          <a href="#stats" className="hover:text-molten">Signals</a>
           <span className="rounded-full border border-hairline px-2 py-0.5 text-molten">
-            ● v1.0 online
+            ● online
           </span>
         </nav>
       </header>
@@ -87,7 +86,7 @@ function Landing() {
           animate={{ opacity: 1, y: 0 }}
           className="mono inline-block rounded-full border border-hairline bg-panel/50 px-3 py-1 text-[10px] uppercase tracking-[0.3em] text-molten backdrop-blur"
         >
-          ● Enterprise HR intelligence · GTI
+          ● GTI ● AI Retrieval Intelligence System
         </motion.span>
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
@@ -121,7 +120,7 @@ function Landing() {
             to="/portal/query/single"
             className="group relative inline-flex items-center gap-2 rounded-md bg-molten px-5 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition hover:brightness-110"
           >
-            Enter portal
+            Use GARIS
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </Link>
           <a
@@ -209,10 +208,10 @@ function Landing() {
       <footer className="relative z-10 border-t border-hairline">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-4 px-6 py-8 text-xs text-muted-foreground md:flex-row md:items-center">
           <div className="mono uppercase tracking-[0.25em]">
-            © GAIL Training Institute · GTI-HR / mock build
+            © GAIL Training Institute · AI Retrieval Intelligence System
           </div>
           <div className="mono flex gap-4 uppercase tracking-[0.25em]">
-            <span>Noida · Vadodara · Virtual</span>
+            <span>Noida</span>
             <span className="text-molten">● all systems nominal</span>
           </div>
         </div>

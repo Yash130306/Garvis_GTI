@@ -19,9 +19,9 @@ export const Route = createFileRoute("/portal/query/overall")({
       greeting="Hi. I'm your **Overall Analytics Agent**. Ask me about company-wide or departmental metrics."
       accent="cyan"
       suggestions={[
-        "Headcount by department",
-        "Attrition last quarter",
-        "Company-wide snapshot",
+        "Total No. Of departments",
+        "List all the employees and there project names",
+        "List all the employees with age above 20",
       ]}
       onSend={queryOverall}
     />
