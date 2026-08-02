@@ -24,7 +24,9 @@ if not os.getenv("GROQ_API_KEY"):
 # ==========================================
 @st.cache_resource
 def get_db_engine():
-    DB_URL = "postgresql+psycopg2://postgres:root@localhost:5432/GTI_2"
+    DB_URL = os.getenv("DATABASE_URL")
+    if not DB_URL:
+        raise ValueError("DATABASE_URL environment variable is not configured.")
     return create_engine(DB_URL)
 
 engine = get_db_engine()
